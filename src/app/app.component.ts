@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { customer } from './customer/customer';
+
+
 
 @Component({
   selector: 'app-root',
@@ -7,4 +10,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'module';
+  name = 'votrannguyen';
+  isDisabled = true;
+  clearValue(){
+    this.name = '';
+  }
 }

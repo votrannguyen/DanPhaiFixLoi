@@ -1,0 +1,7 @@
+<h3>list-students works!</h3>
+<p>Ten sinh vien: {{student.name}}</p>
+<p>ID sinh vien: {{student.id}}</p>
+<p>Diem sinh vien: {{student.mark}}</p>
+<img [src]="student.image" alt="">
+<p><label>Chon sinh vien</label></p>
+<input type="number" (change)="getMark($event)">
